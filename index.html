@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadhilah Akbar Khairogi</title>
+    <style>
+        /* Minimalist Academic Style */
+        body {
+            font-family: "Georgia", "Times New Roman", serif;
+            line-height: 1.6;
+            color: #222;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #fff;
+        }
+
+        /* Typography */
+        h1 {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            color: #111;
+        }
+
+        h2 {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 1.3rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 40px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        p { margin-bottom: 15px; }
+
+        a { color: #0056b3; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Links Header */
+        .links {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+        .links a { margin-right: 15px; }
+
+        /* List Styles */
+        ul { padding-left: 20px; margin-top: 5px; }
+        li { margin-bottom: 5px; }
+
+        /* Dates and Subtitles */
+        .meta {
+            font-style: italic;
+            color: #666;
+            font-size: 0.95rem;
+            float: right;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Skills Section */
+        .skills-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li {
+            margin-bottom: 8px;
+        }
+        .skill-category {
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            margin-top: 60px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            font-size: 0.8rem;
+            color: #888;
+            text-align: center;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fadhilah Akbar Khairogi</h1>
+        <div class="links">
+            <a href="mailto:fadhilahkhairogi@student.telkomuniversity.ac.id">Email</a>
+            <a href="https://github.com/fadhilahkhairogi">GitHub</a>
+            <a href="https://linkedin.com/in/fadhilah-khairogi">LinkedIn</a>
+            </div>
+    </header>
+
+    <section id="about">
+        <p>
+            I am a Computer Science undergraduate at <strong>Telkom University</strong> (Class of 2027). 
+        </p>
+        <p>
+            My research interests lie at the intersection of <strong>Database Systems</strong> and <strong>Machine Learning</strong>. I am particularly interested in the development of intelligent data management systems, AI-assisted data processing, and scalable algorithms for modern data infrastructures.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        
+        <div class="item">
+            <span class="meta">Sept 2023 – Present</span>
+            <h3>Telkom University</h3>
+            BS in Computer Science <br>
+            <strong>CGPA:</strong> 3.95 / 4.0
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="item clearfix">
+            <span class="meta">Aug 2025 – Dec 2025</span>
+            <h3>University of Chicago</h3>
+            <em>System and AI Research Trainee</em>
+            <ul>
+                <li>Selected as one of 45 student researchers nationally for the System and AI Research Training Program.</li>
+                <li>Studied advanced topics in data systems from top-tier conferences (VLDB, SIGMOD, CIDR).</li>
+                <li>Conducted reproduction studies on Large Language Model (LLM) powered data systems.</li>
+            </ul>
+        </div>
+
+        <div class="item clearfix">
+            <span class="meta">June 2025 – Dec 2025</span>
+            <h3>Artificial Intelligence Laboratory, Telkom University</h3>
+            <em>Laboratory & Teaching Assistant</em>
+            <ul>
+                <li>Coordinated a 10-week machine learning study program covering NLP, model evaluation, and deployment.</li>
+                <li>Developed comprehensive course materials and hands-on coding projects in Python.</li>
+            </ul>
+        </div>
+
+        <div class="item clearfix">
+            <span class="meta">Feb 2025 – June 2025</span>
+            <h3>Informatics Laboratory, Telkom University</h3>
+            <em>Teaching Assistant</em>
+            <ul>
+                <li>Mentored students in Core Algorithms and Programming II.</li>
+                <li>Focused on algorithm correctness, complexity analysis, and implementation.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="awards">
+        <h2>Honors & Awards</h2>
+        <ul>
+            <li><strong>1st Place</strong>, ADIKARA Competitive Programming Contest (2025).</li>
+            <li><strong>2nd Place</strong>, Computing Competitive Programming, Telkom University (2024).</li>
+            <li><strong>Top 20 Winner</strong>, Innovation Creativity Contest (320 teams) (2023).</li>
+        </ul>
+    </section>
+
+    <section id="selected-projects">
+        <h2>Selected Projects</h2>
+        
+        <h3>ML-based Study Assistant</h3>
+        <p>
+            A web application providing personalized study plan recommendations and exam performance predictions using NLP and machine learning models. Built with Scikit-learn and Streamlit.
+        </p>
+
+        <h3>Cinemate</h3>
+        <p>
+            A movie ticket purchase platform integrating a RAG-based help chatbot. Developed using Node.js, React.js, and Spring Boot.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul class="skills-list">
+            <li><span class="skill-category">Languages:</span> Python, C++, SQL, JavaScript, Java</li>
+            <li><span class="skill-category">Machine Learning:</span> PyTorch, TensorFlow, Scikit-learn, NLTK, OpenCV</li>
+            <li><span class="skill-category">Data & Systems:</span> PostgreSQL, MySQL, MariaDB, Chroma (Vector DB), Docker</li>
+            <li><span class="skill-category">Tools:</span> Git, Linux, Microsoft Azure</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2025 Fadhilah Akbar Khairogi.
+    </footer>
+
+</body>
+</html>
