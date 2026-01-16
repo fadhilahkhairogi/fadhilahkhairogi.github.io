@@ -21,6 +21,7 @@
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             font-size: 2.2rem;
             margin-bottom: 0.5rem;
+            margin-top: 0; /* Removed top margin for better alignment with image */
             color: #111;
         }
 
@@ -53,6 +54,20 @@
             margin-bottom: 30px;
         }
         .links a { margin-right: 15px; }
+
+        /* Header Layout & Profile Image */
+        header {
+            display: flex;
+            align-items: center;
+        }
+        
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 30px;
+        }
 
         /* List Styles */
         ul { padding-left: 20px; margin-top: 5px; }
@@ -100,12 +115,15 @@
 <body>
 
     <header>
-        <h1>Fadhilah Akbar Khairogi</h1>
-        <div class="links">
-            <a href="mailto:fadhilahkhairogi@student.telkomuniversity.ac.id">Email</a>
-            <a href="https://github.com/fadhilahkhairogi">GitHub</a>
-            <a href="https://linkedin.com/in/fadhilah-khairogi">LinkedIn</a>
+        <img src="profile.jpg" alt="Fadhilah Akbar Khairogi" class="profile-img">
+        <div>
+            <h1>Fadhilah Akbar Khairogi</h1>
+            <div class="links">
+                <a href="mailto:fadhilahkhairogi@student.telkomuniversity.ac.id">Email</a>
+                <a href="https://github.com/fadhilahkhairogi">GitHub</a>
+                <a href="https://linkedin.com/in/fadhilah-khairogi">LinkedIn</a>
             </div>
+        </div>
     </header>
 
     <section id="about">
